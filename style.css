@@ -8,6 +8,27 @@ li {
     padding: 4px 0px;
 }
 
+.back-button {
+    background-color: hsl(118, 63%, 20%);
+    color: #FFFFFF;
+    font-weight: 900;
+    padding: 5px;
+    border: 3px solid rgb(215, 103, 103);
+}
+
+.back-button:hover {
+    background-color: #FFFFFF;
+    border: 3px solid hsl(120, 52%, 70%);
+    color: black;
+}
+
+.back-button:active {
+    background-color: #e99191;
+    border: 3px solid hsl(60, 80%, 74%);
+    color: rgb(227, 210, 210);
+   
+}
+
 ul {
     background-color: rgb(64, 241, 182);
     margin: 10px auto;
@@ -31,5 +52,22 @@ body {
 
 h1 {
     text-align: center;
+    background-color: darkblue;
+    color: antiquewhite;
+    padding: 15px;
+    width: fit-content;
+    border: 5px solid rgb(229, 100, 209);
+    border-radius: 30%;
+    margin: 5px auto;
+    margin-bottom: 40px;
+    
+}
+
+img {
+    border: 5px solid #eb5858;
+}
+
+h2 {
+    margin-top: 40px;
 }
 
